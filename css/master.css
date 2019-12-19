@@ -28,15 +28,20 @@ section {
 span a{
     color: black;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 30px;
 }
 
 .sumary{
-    font-size: 18px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .contain {
     margin: 40px 0;
+}
+
+.more-stories-title a{
+    font-size: 17px;
+    line-height: 0px !important;
 }
