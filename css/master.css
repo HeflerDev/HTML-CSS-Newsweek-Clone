@@ -2,6 +2,40 @@
     box-sizing: border-box !important;
 }
 
+nav {
+    background-color: #f72210;
+    color: whitesmoke;
+}
+
+nav img {
+    filter: invert();
+    width: 35%;
+    margin: 20px;
+}
+
+nav p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.latest-news img {
+    max-width: 200px;
+    min-width: 150px ;
+}
+
+.burguer-icon div {
+    background-color: #fb9a94 !important ;
+    width: 60px;
+    height: 20%;
+}
+
+nav a{
+    background-color: white;
+    color: #f72210;
+    font-weight: bold;
+    padding: 10px;
+}
+
 img{
     padding: 0 !important;
 }
@@ -51,6 +85,7 @@ span a{
 .sumary{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
 }
 
 .contain {
