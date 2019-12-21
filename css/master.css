@@ -9,8 +9,33 @@ nav {
 
 nav img {
     filter: invert();
-    width: 35%;
+    width: 300px;
     margin: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    nav img {
+        width: 500px;
+    }
+}
+
+ul{
+    list-style: none;
+    background-color: whitesmoke;
+    color: black;
+    height: 80px;
+    border-left: 12px solid white;;
+}
+
+/*Use border-left */
+
+
+
+ul li {
+    font-weight: 700;
+    font-size: 21px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin: auto;
 }
 
 nav p{
