@@ -2,6 +2,15 @@
     box-sizing: border-box !important;
 }
 
+main {
+    max-width: 1400px !important;
+    background-color: white;
+}
+
+body {
+    background-color: whitesmoke !important;
+}
+
 nav {
     background-color: #f72210;
     color: whitesmoke;
@@ -108,7 +117,7 @@ span a{
 }
 
 .sumary{
-    font-size: 13px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px auto;
 }
@@ -121,3 +130,47 @@ span a{
     font-size: 17px;
     line-height: 0px !important;
 }
+
+.n-logo {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.logo-title {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.magazine-section h4{
+    font-size: 24px !important;
+}
+
+.icon-n {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    background-image: url('https://g.newsweek.com/www/images/logo-n1.svg');
+    background-color: red;
+}
+
+.icon-n-slide {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    background-image: url('https://g.newsweek.com/www/images/logo-n1.svg');
+    background-color: red;
+}
+
+.icon-n-slide::after{
+    border-bottom: 3px solid red ;
+    border-right: 3px solid red ;
+    display: block ;
+    content: "";
+    width: 45px ;
+    height: 45px ;
+    bottom: -4px ;
+    right: -4px ;
+}
+
