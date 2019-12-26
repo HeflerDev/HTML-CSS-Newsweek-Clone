@@ -174,3 +174,30 @@ span a{
     right: -4px ;
 }
 
+.news-img {
+    background-image: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+@media only screen and (min-width:720px) {
+    .news-img{
+    background-size : 200% ;
+    height: 100%;
+}
+}
+
+@media only screen and (min-width: 960px){
+    .news-img{
+        background-size : 300%;
+    }
+    .hgh{
+        min-height: 90% !important;
+    }
+}
+
+.subs-container {
+    background-color : whitesmoke ;
+}
