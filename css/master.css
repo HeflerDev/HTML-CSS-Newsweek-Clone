@@ -201,3 +201,23 @@ span a{
 .subs-container {
     background-color : whitesmoke ;
 }
+
+footer {
+    max-width: 1500px;
+    margin: auto;
+}
+
+footer .nw-logo {
+    max-width: 300px;
+    fill: #f72210 !important;
+}
+
+footer .tags a {
+    color: #666;
+}
+
+
+
+
+
+
