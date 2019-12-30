@@ -143,9 +143,20 @@ span a{
     position: absolute;
     z-index: 1;
     display: block;
-    bottom: 0;
+    bottom: 2%;
     left: 0;
     padding: 10px 20px;
+}
+
+.mini-heading {
+    color: #f72210;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.slides-section .div{
+    padding : 0;
+    filter: opacity(0.9);
 }
 
 .sumary{
@@ -271,6 +282,10 @@ footer .tags a {
     color: #666;
 }
 
+.slideshow-number {
+    top : 44%;
+    left : 50%;
+}
 
 
 
