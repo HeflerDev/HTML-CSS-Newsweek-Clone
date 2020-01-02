@@ -170,7 +170,7 @@ span a {
 
 .more-stories-title a {
   font-size: 17px;
-  line-height: 0px !important;
+  line-height: 0 !important;
 }
 
 .n-logo {
